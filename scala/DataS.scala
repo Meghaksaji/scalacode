@@ -1,6 +1,6 @@
 object Datatype{
    def main(args:Array[String]):Unit={
-//     val lsitvariable:List[String]=List("apple","orange","watermelon","grapes","guava")
+     val lsitvariable:List[String]=List("apple","orange","watermelon","grapes","guava")
 //       println("first element " +lsitvariable.head)
 //     println("value excluding first element " +lsitvariable.tail)
 //     println("value including first element " +lsitvariable.head)
@@ -14,13 +14,13 @@ object Datatype{
 
      //empty list declration
 //     val emptylist:List[Nothing]=List()
-     //Array data type-array is mutable,fixed size of collection
-     //array is homogeneous collection
+////     Array data type-array is mutable,fixed size of collection
+////     array is homogeneous collection
 //     val array=Array("Hadoop","spark","flune")
-     //prints element by element output in new line
+////     prints element by element output in new line
 //     array.foreach(println)
 //     println(array.mkString(","))
-     //updating value in array even though it was val
+////     updating value in array even though it was val
 //    array(0)="MANGO"
 //     println(array.mkString(","))
 
@@ -80,12 +80,12 @@ object Datatype{
 //     println(mapvar1.get("UST1003"))
 //     println(mapvar1.values)
 //     println(mapvar1.keys)
-     import scala.collection.mutable.Map
-     val mutab1=Map("UST101" -> "Sandeep","UST102" -> "Midhun","UST1003" ->"Vinesh")
-     //updating
-     mutab1("UST101")="Rohit"
-     mutab1+=("UST1004"->"Siva")
-       
+//     import scala.collection.mutable.Map
+//     val mutab1=Map("UST101" -> "Sandeep","UST102" -> "Midhun","UST1003" ->"Vinesh")
+//     //updating
+//     mutab1("UST101")="Rohit"
+//     mutab1+=("UST1004"->"Siva")
+
 
 
 
